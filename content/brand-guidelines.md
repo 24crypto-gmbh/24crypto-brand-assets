@@ -33,7 +33,6 @@ PNG exports of every variant are in `logos/png/` (500–4000 px wide; marks 256�
 | Ink | `#18181b` | 24 24 27 | Body text on light backgrounds |
 | White | `#ffffff` | 255 255 255 | Text on dark, light backgrounds |
 | Zinc | `#a1a1aa` | 161 161 170 | Secondary text, captions |
-| Teal accent | `#5be1dd` | 91 225 221 | Sparingly — charts, highlights |
 | Lime dark | `#a3ad13` | 163 173 19 | Hover states, lime on light bg when contrast needed |
 
 Ratio guideline for social visuals: ~70% navy, ~20% white/zinc text, ~10% lime. Lime is an accent — never a full background for text-heavy layouts (exception: the lime avatar and small CTA pills with navy text).
