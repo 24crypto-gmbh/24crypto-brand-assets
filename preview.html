@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>24crypto — Brand Kit Preview</title>
+<style>
+  :root { --lime:#d0dd27; --navy:#020816; --ink:#18181b; --zinc:#a1a1aa; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:Inter,'Helvetica Neue',Arial,sans-serif; background:#0a0f1e; color:#fff; padding:48px 5vw; }
+  h1 { font-size:2rem; margin-bottom:4px; }
+  h1 span { color:var(--lime); }
+  .sub { color:var(--zinc); margin-bottom:40px; }
+  h2 { font-size:1.1rem; letter-spacing:.12em; text-transform:uppercase; color:var(--lime); margin:48px 0 16px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:16px; }
+  .card { background:#111827; border:1px solid #1f2937; border-radius:12px; overflow:hidden; }
+  .card.light .img { background:#fff; }
+  .img { background:repeating-conic-gradient(#1a2234 0 25%, #141b2b 0 50%) 0 0/24px 24px; display:flex; align-items:center; justify-content:center; padding:20px; min-height:150px; }
+  .img img { max-width:100%; max-height:180px; }
+  .wide .img img { max-height:140px; }
+  .card p { font-size:.75rem; color:var(--zinc); padding:10px 12px; word-break:break-all; }
+  .swatches { display:flex; flex-wrap:wrap; gap:12px; }
+  .sw { width:130px; border-radius:10px; overflow:hidden; border:1px solid #1f2937; font-size:.72rem; }
+  .sw div { height:64px; }
+  .sw p { padding:8px 10px; background:#111827; color:var(--zinc); }
+</style>
+</head>
+<body>
+<h1>24<span>crypto</span> — brand &amp; social kit</h1>
+<p class="sub">v1 · July 2026 · see README.md for usage, content/ for copy &amp; strategy</p>
+
+<h2>Colours</h2>
+<div class="swatches">
+  <div class="sw"><div style="background:#d0dd27"></div><p>24 Lime<br>#d0dd27</p></div>
+  <div class="sw"><div style="background:#020816"></div><p>Deep Navy<br>#020816</p></div>
+  <div class="sw"><div style="background:#18181b"></div><p>Ink<br>#18181b</p></div>
+  <div class="sw"><div style="background:#ffffff"></div><p>White<br>#ffffff</p></div>
+  <div class="sw"><div style="background:#a1a1aa"></div><p>Zinc<br>#a1a1aa</p></div>
+  <div class="sw"><div style="background:#5be1dd"></div><p>Teal accent<br>#5be1dd</p></div>
+</div>
+
+<h2>Logos (SVG masters in logos/svg, PNGs in logos/png)</h2>
+<div class="grid">
+  <div class="card light"><div class="img"><img src="logos/svg/24crypto-logo-color-dark-text.svg"></div><p>logo-color-dark-text — for light backgrounds</p></div>
+  <div class="card"><div class="img" style="background:#020816"><img src="logos/svg/24crypto-logo-color-white-text.svg"></div><p>logo-color-white-text — for dark backgrounds</p></div>
+  <div class="card light"><div class="img"><img src="logos/svg/24crypto-logo-mono-black.svg"></div><p>logo-mono-black — print / one-colour</p></div>
+  <div class="card"><div class="img" style="background:#020816"><img src="logos/svg/24crypto-logo-mono-white.svg"></div><p>logo-mono-white — video watermark</p></div>
+  <div class="card"><div class="img"><img src="logos/svg/24crypto-mark-lime.svg" style="max-height:110px"></div><p>mark-lime — icon / favicon / watermark</p></div>
+  <div class="card"><div class="img"><img src="logos/svg/24crypto-avatar-navy.svg" style="max-height:150px"></div><p>avatar-navy — default profile picture</p></div>
+  <div class="card"><div class="img"><img src="logos/svg/24crypto-avatar-lime.svg" style="max-height:150px"></div><p>avatar-lime — alternative</p></div>
+  <div class="card"><div class="img"><img src="logos/svg/24crypto-avatar-white.svg" style="max-height:150px"></div><p>avatar-white — light contexts</p></div>
+</div>
+
+<h2>Covers &amp; banners (social/covers)</h2>
+<div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(380px,1fr))">
+  <div class="card wide"><div class="img"><img src="social/covers/linkedin-company-cover-2256x382.png"></div><p>LinkedIn company cover · 2256×382</p></div>
+  <div class="card wide"><div class="img"><img src="social/covers/linkedin-personal-cover-1584x396.png"></div><p>LinkedIn personal cover · 1584×396</p></div>
+  <div class="card wide"><div class="img"><img src="social/covers/x-twitter-header-3000x1000.png"></div><p>X / Twitter header · 1500×500 (+@2x)</p></div>
+  <div class="card wide"><div class="img"><img src="social/covers/facebook-cover-1640x624.png"></div><p>Facebook cover · 820×312 (@2x)</p></div>
+  <div class="card wide"><div class="img"><img src="social/covers/youtube-banner-2560x1440.png"></div><p>YouTube banner · 2560×1440 (safe-area centred)</p></div>
+</div>
+
+<h2>Templates (social/templates — editable src-*.svg)</h2>
+<div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(300px,1fr))">
+  <div class="card"><div class="img"><img src="social/templates/instagram-post-dark-1080x1080.png"></div><p>Instagram post — dark · 1080×1080</p></div>
+  <div class="card"><div class="img"><img src="social/templates/instagram-post-light-1080x1080.png"></div><p>Instagram post — light · 1080×1080</p></div>
+  <div class="card"><div class="img"><img src="social/templates/instagram-story-1080x1920.png" style="max-height:260px"></div><p>Instagram/TikTok story · 1080×1920</p></div>
+  <div class="card wide"><div class="img"><img src="social/templates/og-share-1200x630.png"></div><p>OG / link-share image · 1200×630</p></div>
+</div>
+
+<h2>Profile pictures (social/profile-pictures)</h2>
+<p class="sub" style="margin-bottom:12px">Named per platform at the recommended size — navy is the default everywhere.</p>
+<div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(160px,1fr))">
+  <div class="card"><div class="img"><img src="social/profile-pictures/profile-navy-1080.png" style="border-radius:50%"></div><p>navy (default)</p></div>
+  <div class="card"><div class="img"><img src="social/profile-pictures/profile-lime-1080.png" style="border-radius:50%"></div><p>lime (alt)</p></div>
+  <div class="card"><div class="img"><img src="social/profile-pictures/profile-white-1080.png" style="border-radius:50%"></div><p>white (alt)</p></div>
+</div>
+</body>
+</html>

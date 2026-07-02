@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>24crypto — Brand Quick Guide</title>
+<style>
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 210mm; height: 297mm; }
+  body {
+    font-family: Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #18181b; background: #ffffff;
+    display: flex; flex-direction: column;
+  }
+  .band { background: #020816; color: #fff; padding: 9mm 12mm 8mm; position: relative; overflow: hidden; }
+  .band::after { content:""; position:absolute; inset:0;
+    background: radial-gradient(circle at 85% 0%, rgba(208,221,39,.18), rgba(208,221,39,0) 55%); }
+  .band img { height: 13mm; display: block; position: relative; z-index: 1; }
+  .band .sub { position: relative; z-index: 1; margin-top: 4.5mm; font-size: 9.5pt; color: #a1a1aa; letter-spacing: .18em; text-transform: uppercase; font-weight: 600; }
+  .band .sub b { color: #d0dd27; font-weight: 700; letter-spacing: .04em; text-transform: none; }
+  .wrap { padding: 7mm 12mm 0; flex: 1; }
+  h2 { font-size: 8.5pt; letter-spacing: .22em; text-transform: uppercase; color: #a3ad13; margin: 6mm 0 3mm; }
+  h2:first-child { margin-top: 0; }
+
+  .swatches { display: grid; grid-template-columns: repeat(6, 1fr); gap: 3mm; }
+  .sw { border: 1px solid #e4e4e7; border-radius: 2.5mm; overflow: hidden; }
+  .sw .c { height: 13mm; }
+  .sw p { padding: 1.8mm 2.2mm; font-size: 7pt; line-height: 1.45; color: #52525b; }
+  .sw p b { display: block; color: #18181b; font-size: 7.5pt; }
+
+  .logos { display: grid; grid-template-columns: 1.4fr 1.4fr 1fr 1fr; gap: 3mm; }
+  .cell { border: 1px solid #e4e4e7; border-radius: 2.5mm; overflow: hidden; }
+  .cell .art { height: 24mm; display: flex; align-items: center; justify-content: center; padding: 4mm; }
+  .cell .art img { max-height: 100%; max-width: 100%; }
+  .cell.dark .art { background: #020816; }
+  .cell p { padding: 1.8mm 2.2mm; font-size: 7pt; line-height: 1.4; color: #52525b; border-top: 1px solid #f4f4f5; }
+
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 6mm; }
+  ul { list-style: none; }
+  li { font-size: 8.5pt; line-height: 1.55; color: #3f3f46; padding-left: 4.5mm; position: relative; margin-bottom: 1.2mm; }
+  li::before { content: "—"; position: absolute; left: 0; color: #a3ad13; font-weight: 700; }
+  li b { color: #18181b; }
+  .type-demo { border: 1px solid #e4e4e7; border-radius: 2.5mm; padding: 4mm 5mm; }
+  .type-demo .h { font-size: 17pt; font-weight: 800; letter-spacing: -.02em; line-height: 1.1; }
+  .type-demo .h span { color: #a3ad13; }
+  .type-demo .o { margin-top: 2.5mm; font-size: 7.5pt; font-weight: 600; letter-spacing: .3em; text-transform: uppercase; color: #71717a; }
+  .type-demo .b { margin-top: 2mm; font-size: 8.5pt; color: #52525b; line-height: 1.5; }
+
+  .footer { background: #fafafa; border-top: 1px solid #e4e4e7; padding: 4mm 12mm 4.5mm; font-size: 7pt; color: #71717a; line-height: 1.55; }
+  .footer b { color: #18181b; }
+  .limebar { height: 1.6mm; background: #d0dd27; }
+</style>
+</head>
+<body>
+  <div class="band">
+    <img src="../logos/svg/24crypto-logo-color-white-text.svg" alt="24crypto">
+    <p class="sub">Brand quick guide · video &amp; content editing &nbsp;&nbsp;<b>24crypto.ch</b></p>
+  </div>
+  <div class="limebar"></div>
+
+  <div class="wrap">
+    <h2>Colours</h2>
+    <div class="swatches">
+      <div class="sw"><div class="c" style="background:#d0dd27"></div><p><b>#D0DD27</b>24 Lime — accent, CTAs, keywords. Max ~10% of frame.</p></div>
+      <div class="sw"><div class="c" style="background:#020816"></div><p><b>#020816</b>Deep Navy — primary background</p></div>
+      <div class="sw"><div class="c" style="background:#18181b"></div><p><b>#18181B</b>Ink — text on light backgrounds</p></div>
+      <div class="sw"><div class="c" style="background:#ffffff; border-bottom:1px solid #e4e4e7"></div><p><b>#FFFFFF</b>White — text on dark</p></div>
+      <div class="sw"><div class="c" style="background:#a1a1aa"></div><p><b>#A1A1AA</b>Zinc — secondary text, captions</p></div>
+      <div class="sw"><div class="c" style="background:#5be1dd"></div><p><b>#5BE1DD</b>Teal — charts &amp; highlights only, sparingly</p></div>
+    </div>
+
+    <h2>Logo</h2>
+    <div class="logos">
+      <div class="cell"><div class="art"><img src="../logos/svg/24crypto-logo-color-dark-text.svg"></div><p>On light backgrounds<br><b>24crypto-logo-color-dark-text</b></p></div>
+      <div class="cell dark"><div class="art"><img src="../logos/svg/24crypto-logo-color-white-text.svg"></div><p>On dark / video footage<br><b>24crypto-logo-color-white-text</b></p></div>
+      <div class="cell dark"><div class="art"><img src="../logos/svg/24crypto-mark-lime.svg"></div><p>"24" mark — watermark, icon<br><b>24crypto-mark-lime / -white</b></p></div>
+      <div class="cell"><div class="art"><img src="../logos/svg/24crypto-avatar-navy.svg" style="height:18mm"></div><p>Profile / avatar<br><b>24crypto-avatar-navy</b></p></div>
+    </div>
+    <ul style="margin-top:2.5mm">
+      <li>Clear space around the logo ≈ its own height. Never stretch, rotate, recolour or add effects. Min width on screen: logo 110&nbsp;px, mark 24&nbsp;px.</li>
+      <li>On busy footage, place the white-text logo over a darkened area or navy overlay — never directly on bright detail.</li>
+    </ul>
+
+    <div class="cols">
+      <div>
+        <h2>Typography — Inter</h2>
+        <div class="type-demo">
+          <p class="h">Headlines: Inter Bold/ExtraBold.<br><span>Key words in lime.</span></p>
+          <p class="o">Overlines: caps + letterspacing</p>
+          <p class="b">Body &amp; subtitles: Inter Regular/Medium. Zinc #A1A1AA on dark, #52525B on light. Fallback font: Helvetica Neue / Arial.</p>
+        </div>
+      </div>
+      <div>
+        <h2>Video rules</h2>
+        <ul>
+          <li><b>Look:</b> ~70% navy, 20% white/zinc text, 10% lime — same feel as 24crypto.ch.</li>
+          <li><b>Watermark:</b> white "24" mark, top-right, ~40% opacity, all videos.</li>
+          <li><b>Subtitles:</b> Inter Bold, white, key words in lime. Always burn in.</li>
+          <li><b>End card:</b> navy background, logo + lime <b>24crypto.ch</b> (template: instagram-story).</li>
+          <li><b>Tone:</b> calm, precise, Swiss. No hype, no memes, no FOMO countdowns.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <b>Compliance — every published video/post:</b> no price predictions or promised returns; market content carries "Not investment advice. Crypto assets are volatile and may lose value." Regulatory wording is always exactly: <b>"Member of VQF, a FINMA-recognised self-regulatory organisation (SRO)"</b> — never "FINMA licensed". Don't use the Swiss federal cross in graphics (🇨🇭 emoji in captions is fine). &nbsp;·&nbsp; Assets: see the 24crypto brand kit (logos/, social/, content/).
+  </div>
+</body>
+</html>
